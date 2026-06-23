@@ -1,12 +1,18 @@
-div{
-    background-color: rgb(253, 192, 101);
-    width: 100px;
-    height: 100px;
-    display: inline-block;
+*{
+    box-sizing: border-box;
 }
-span{
-    background-color: rgb(131, 247, 247);
-    width: 100px;
-    height: 100px;
-    display: inline-block;
+.container{
+    background-color: rgb(252, 222, 182);
+    height: 100vh;
+}
+.box{
+    background-color: aqua;
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: right;
+    text-align: center;
+
+    
 }
