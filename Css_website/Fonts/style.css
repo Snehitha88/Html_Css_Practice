@@ -1,16 +1,7 @@
-#box1{
-  width: 200px;
-  height: 200px;
-  background-color: darkkhaki;
-  position: relative;
-  
-}
-#box2{
-  width: 100px;
-  height: 100px;
-  background-color: rgb(207, 115, 161);
-  position: absolute;
-  bottom: 50px;
-  left: 50px;
-  
+body{
+    background-image: url(american.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
 }
