@@ -1,15 +1,9 @@
 h1{
-    font-family: sans-serif;
-    border: 3px solid cyan;
-    border-radius: 20px;
+    text-shadow: 3px 3px 6px rgb(21, 21, 231), -3px -3px 6px rgb(209, 9, 159);
 }
-p{
-    font-family: serif;
-    font-size: lem;
-    font-style: italic;
-    border-bottom: 2px solid red;
-    border-top: 2px solid purple;
-    border-left: 2px dotted rgb(66, 18, 240);
-    border-right: 2px dotted saddlebrown;
-    border-radius: 15px;
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(229, 223, 223);
+    box-shadow: 3px 3px 5px;
 }
