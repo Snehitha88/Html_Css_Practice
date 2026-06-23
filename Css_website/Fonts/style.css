@@ -1,9 +1,18 @@
-h1{
-    text-shadow: 3px 3px 6px rgb(21, 21, 231), -3px -3px 6px rgb(209, 9, 159);
+body{
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    height: 250px;
+    width: 250px;
+    margin: auto;
 }
 #box1{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(229, 223, 223);
-    box-shadow: 3px 3px 5px;
+   background-color: blueviolet;
+  
+}
+#box2{
+    background-color: cyan;
+   
 }
