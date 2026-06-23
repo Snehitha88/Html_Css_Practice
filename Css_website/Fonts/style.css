@@ -1,7 +1,14 @@
-body{
-    background-image: url(american.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover; 
+a:link{
+    color: rgb(114, 180, 246);
+}
+a:hover{
+    color: rgb(86, 86, 236);
+    font-size: 2.lem;
+}
+a:active{
+    color: rgb(11, 11, 163);
+    font-size: 2.lem;
+}
+a:visited{
+    color: chartreuse;
 }
