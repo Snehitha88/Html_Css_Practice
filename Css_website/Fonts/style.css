@@ -1,9 +1,15 @@
 h1{
     font-family: sans-serif;
+    border: 3px solid cyan;
+    border-radius: 20px;
 }
 p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: serif;
     font-size: lem;
-    font-weight: bold;
     font-style: italic;
+    border-bottom: 2px solid red;
+    border-top: 2px solid purple;
+    border-left: 2px dotted rgb(66, 18, 240);
+    border-right: 2px dotted saddlebrown;
+    border-radius: 15px;
 }
