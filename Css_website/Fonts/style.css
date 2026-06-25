@@ -1,18 +1,29 @@
-.pagination{
-    text-align: center;
+.dropdown button{
+    background-color: rgb(197, 199, 201);
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
 }
-.pagination a{
+.dropdown a{
+    display: block;
     color: black;
     text-decoration: none;
-    padding: 8px 15px;
-    display: inline-block;
+    padding: 10px 15px;
 }
-.pagination a.active{
-    background-color: rgb(62, 238, 62);
-    font-weight: bold;
-    border-radius: 5px;
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    min-height: 100px;
+    box-shadow: 2px 2px 6px rgb(26, 16, 2);
 }
-.pagination a:hover:not(.active){
-    background-color: rgb(185, 246, 246);
-    border-radius: 5px;
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: rgb(214, 220, 226);
+}
+.dropdown a:hover{
+    background-color: rgb(144, 147, 151);
 }
