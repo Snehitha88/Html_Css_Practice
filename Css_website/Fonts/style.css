@@ -1,28 +1,18 @@
-h1::first-letter{
-    font-size: 2em;
-    font-style: italic;
+.pagination{
+    text-align: center;
 }
-p::first-line{
-    background-color: aquamarine;
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
 }
-p::selection{
-    color: blue;
-    background-color: bisque;
+.pagination a.active{
+    background-color: rgb(62, 238, 62);
+    font-weight: bold;
+    border-radius: 5px;
 }
-
-#apple::after{
-    content: "🍎";
+.pagination a:hover:not(.active){
+    background-color: rgb(185, 246, 246);
+    border-radius: 5px;
 }
-#orange::after{
-    content: "🍊";
-}
-#banana:after{
-    content: "🍌";
-}
-#fruit li::marker{
-    content: "✔";
-    color: rgb(56, 68, 62);
-    font-size: 1.2em;
-}
-
-
