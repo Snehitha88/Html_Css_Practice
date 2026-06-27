@@ -1,16 +1,22 @@
-.gallery{
-    display: inline-block;
-    border: 1px solid rgb(235, 232, 232);
-    margin: 5px;
+body{
+    margin: 0;
 }
-.gallery .description{
-    padding: 10px;
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
     text-align: center;
+    transform: translateX(100px) rotateZ(45deg) scale(0.5);
 }
-.gallery:hover{
-    border: 1px solid rgb(101, 95, 95);
+#box1{
+        background-color: rgb(254, 170, 44);
 }
-.gallery img{
-    width: 100%;
-    height: auto;
+#box2{
+        background-color: rgb(42, 101, 250);
+
+}
+#box3{
+        background-color: rgb(33, 234, 22);
+
 }
